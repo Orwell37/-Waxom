@@ -1,0 +1,20 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+
+/* components imports */
+
+@import "../css/components/_header.css";
+@import "../css/components/_first.css";
+@import "../css/components/_our-dewelopment.css";
+@import "../css/components/_txt.css";
+@import "../css/components/_projects.css";
+@import "../css/components/_video.css";
+@import "../css/components/_mobileLayot.css";
+@import "../css/components/_counters.css";
+@import "../css/components/_posts.css";
+@import "../css/components/_partners.css";
+@import "../css/components/_footer.css";

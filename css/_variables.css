@@ -1,0 +1,15 @@
+:root {
+	--white-color: #fff;
+	--black-color: #000;
+	--brown-color: #c7b299;
+	--background-color: #555556;
+	--button-bg-color: #998675;
+	--title-color: #555;
+	--descr-color: #8c8c8c;
+	--section-bg-color: #fbfaf8;
+	--border-color: #ebebeb;
+	--project-descr-color: #d1d1d1;
+	--hover-posts-color: #362f2d;
+	--footer__posts-date-color: #363636;
+	--footer__posts-border: #252525;
+}

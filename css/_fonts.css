@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'Raleway-regular';
+	src: url('../fonts/Raleway/Raleway-regular.woff2') format('woff2'),
+		url('../fonts/Raleway/Raleway-regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway-medium';
+	src: url('../fonts/Raleway/Raleway-medium.woff2') format('woff2'),
+		url('../fonts/Raleway/Raleway-medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway-semibold';
+	src: url('../fonts/Raleway/Raleway-semibold.woff2') format('woff2'),
+		url('../fonts/Raleway/Raleway-semibold.woff') format('woff');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway-Bold';
+	src: url('../fonts/Raleway/Raleway-Bold.woff2') format('woff2'),
+		url('../fonts/Raleway/Raleway-extraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Raleway-extraBold';
+	src: url('../fonts/Raleway/Raleway-extraBold.woff2') format('woff2'),
+		url('../fonts/Raleway/Raleway-extraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-light';
+	src: url('../fonts/Montserrat-light/montserrat-light.woff2') format('woff2'),
+		url('../fonts/Montserrat-light/montserrat-light.woff') format('woff');
+	font-display: swap;
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat-Ultralight';
+	src: url('../fonts/Montserrat-UtraLight/Montserrat-UltraLight.woff2') format('woff2'),
+		url('../fonts/Montserrat-UtraLight/Montserrat-UltraLight.woff') format('woff');
+	font-display: swap;
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../fonts/Roboto-Regular/Roboto-Regular.woff2') format('woff2'),
+		url('../fonts/Roboto-Regular/Roboto-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}

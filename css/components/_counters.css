@@ -1,0 +1,88 @@
+.counters {
+	width: 100%;
+	padding: 4.5vmax 0;
+	background: linear-gradient(to right, #211b19, #4e3427);
+}
+
+.counters__container {
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.counters__counter {
+	width: 140px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.counter__icon {
+	width: 54px;
+	height: 44px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.clients {
+	background-image: url(../../img/clients-icon.png);
+}
+
+.coffee {
+	background-image: url(../../img/coffee-icon.png);
+}
+
+.blog {
+	background-image: url(../../img/blog-icon.png);
+}
+
+.likes {
+	background-image: url(../../img/likes-icon.png);
+}
+
+.launched {
+	background-image: url(../../img/launched-icon.png);
+}
+
+.counter__number {
+	font-family: 'Montserrat-Ultralight', sans-serif;
+	font-size: 38px;
+	padding-top: 2vmax;
+}
+
+.counter__descr {
+	font-family: 'Montserrat-light', sans-serif;
+	padding-top: 1.3vmax;
+	font-size: 14px;
+	color: var(--brown-color);
+	text-transform: uppercase;
+}
+
+.counter__border {
+	margin-top: 2vmax;
+	width: 1.8vmax;
+	height: 2px;
+	background-color: var(--white-color);
+}
+
+
+@media (max-width: 800px) {
+
+	.counter__icon {
+		width: 44px;
+		height: 34px;
+	}
+
+	.counter__number {
+		font-size: 28px;
+	}
+
+	.counter__descr {
+		font-size: 10px;
+	}
+
+	.counters__counter {
+		width: 100px;
+		margin: 20px;
+	}
+
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10" viewBox="0 0 30 10">
+  <defs>
+    <filter id="filter" x="395" y="2762" width="30" height="10" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fbfaf8"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="project__photo-arrow" d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+</svg>

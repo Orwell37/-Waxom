@@ -1,0 +1,69 @@
+.our-dewelopment {
+	padding: 6vmax 0;
+}
+
+.our-dewelopment__container {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.our-dewelopment-link {
+	width: 280px;
+	padding: 20px;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.our-dewelopment-block {
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.our-dewelopment-icon {
+	width: 50px;
+	height: 50px;
+}
+
+.our-dewelopment-title {
+	font-family: 'Raleway-semibold', sans-serif;
+	padding: 1.8vmax 0;
+	font-size: 22px;
+	color: var(--title-color);
+	transition: 0.3s ease-in;
+}
+
+.our-dewelopment-descr {
+	font-size: 14px;
+	padding-bottom: 1.9vmax;
+	line-height: 24px;
+	color: var(--descr-color);
+}
+
+.our-dewelopment-line {
+	width: 18%;
+	height: 3px;
+	background-color: var(--brown-color);
+	opacity: 0.4;
+	transition: 0.3s ease-in;
+}
+
+.icon-design {
+	fill: #555;
+	transition: 0.3s ease-in;
+}
+
+.our-dewelopment-link:hover .icon-design {
+	fill: #c7b299;
+	transition: 0.3s ease-in;
+}
+
+.our-dewelopment-link:hover .our-dewelopment-title {
+	color: var(--brown-color);
+	transition: 0.3s ease-in;
+}
+
+.our-dewelopment-link:hover .our-dewelopment-line {
+	opacity: 1;
+	transition: 0.3s ease-in;
+}

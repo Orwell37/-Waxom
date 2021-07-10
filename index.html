@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Waxom</title>
+	<link rel="stylesheet" href="libs/swiper/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="site-container">
+		<header class="header">
+			<div class="container header__container">
+				<div class="full__navigation flex">
+					<a href="index.html" class="logo flex" aria-label="go to start page">
+						<img src="img/logo.svg" alt="Logo">
+						<p class="logo__name">Waxom</p>
+					</a>
+					<nav class="header__nav flex">
+						<ul class="menu__list flex">
+							<li class="menu__item"><a href="#home" class="menu__link" aria-label="go to home page">Home</a></li>
+							<li class="menu__item"><a href="#about" class="menu__link" aria-label="go to About As page">About As</a></li>
+							<li class="menu__item"><a href="#portfolio" class="menu__link" aria-label="go to Portfolio page">Portfolio</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" aria-label="go to Features page">Features</a></li>
+							<li class="menu__item"><a href="#blog" class="menu__link" aria-label="go to Blog page">Blog</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" aria-label="go to Pricing page">Pricing</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" aria-label="go to Shortcodes page">Shortcodes</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" aria-label="go to Contact page">Contact</a></li>
+						</ul>
+					</nav>
+					<div class="header__link-icon">
+						<a class="icon__cart" href="#" ><svg class="icon-cart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="24">
+							<path d="M1491,58h-1.5c0-1.657-2.02-3-4.5-3s-4.5,1.344-4.5,3H1479a3,3,0,0,0-3,3V76a3,3,0,0,0,3,3h12a3,3,0,0,0,2.99-3V61A3,3,0,0,0,1491,58Zm-6-1.5c1.66,0,3,.464,3,1.5h-6C1482,56.962,1483.34,56.5,1485,56.5Zm7.49,19.5a1.5,1.5,0,0,1-1.49,1.5h-12a1.5,1.5,0,0,1-1.5-1.5V74.5h14.99V76Zm0-3H1477.5V61a1.5,1.5,0,0,1,1.5-1.5h1.5V64h1.5V59.5h6V64h1.5V59.5h1.5a1.5,1.5,0,0,1,1.49,1.5V73Z" transform="translate(-1476 -55)"/>
+						</svg></a>
+						<a class="icon__search" href="#"><svg class="icon-search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+							<path d="M1545.76,77.682l-6.19-6.095a9.807,9.807,0,0,0,2.62-6.658,10.1,10.1,0,1,0-10.1,9.934,10.183,10.183,0,0,0,6.36-2.218l6.21,6.12a0.788,0.788,0,0,0,1.1,0A0.763,0.763,0,0,0,1545.76,77.682Zm-13.67-4.348a8.406,8.406,0,1,1,8.54-8.405A8.477,8.477,0,0,1,1532.09,73.334Z" transform="translate(-1522 -55)"/>
+						</svg></a>
+					</div>
+				</div>
+				<div class="device__navigation">
+					<div class="button__burger">
+						<span class="burger__line"></span>
+						<span class="burger__line"></span>
+						<span class="burger__line"></span>
+					</div>
+					<nav class="header__nav-mobile flex">
+						<ul class="menu__list flex">
+							<li class="menu__item"><a href="#home" class="menu__link" aria-label="go to home page">Home</a></li>
+							<li class="menu__item"><a href="#about" class="menu__link" aria-label="go to About As page">About As</a></li>
+							<li class="menu__item"><a href="#portfolio" class="menu__link" aria-label="go to Portfolio page">Portfolio</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" aria-label="go to Features page">Features</a></li>
+							<li class="menu__item"><a href="#blog" class="menu__link" aria-label="go to Blog page">Blog</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" aria-label="go to Pricing page">Pricing</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" aria-label="go to Shortcodes page">Shortcodes</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" aria-label="go to Contact page">Contact</a></li>
+						</ul>
+						<div class="button__close-nav-mobile">
+							<span class="close__btn-line"></span>
+							<span class="close__btn-line"></span>
+						</div>
+					</nav>
+					<img src="img/logo.png" alt="image logo">
+					<a class="icon__search" href="#">
+						<svg class="icon-search" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 		width="24" height="24">
+						<path d="M1545.76,77.682l-6.19-6.095a9.807,9.807,0,0,0,2.62-6.658,10.1,10.1,0,1,0-10.1,9.934,10.183,10.183,0,0,0,6.36-2.218l6.21,6.12a0.788,0.788,0,0,0,1.1,0A0.763,0.763,0,0,0,1545.76,77.682Zm-13.67-4.348a8.406,8.406,0,1,1,8.54-8.405A8.477,8.477,0,0,1,1532.09,73.334Z" transform="translate(-1522 -55)"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="first" id="home">
+				<div class="swiper-header-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="swiper-slide__content flex">
+								<p class="swiper-slide__top-title">Unique and Modern Design</p>
+								<h1 class="swiper-slide__title">Portfolio PSD Template</h1>
+								<p class="swiper-slide__deccr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+								<button class="button" aria-label="get started">Get Started</button>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide__content flex">
+								<p class="swiper-slide__top-title">Unique and Modern Design</p>
+								<h1 class="swiper-slide__title">Portfolio PSD Template</h1>
+								<p class="swiper-slide__deccr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide__content flex">
+								<p class="swiper-slide__top-title">Unique and Modern Design</p>
+								<h1 class="swiper-slide__title">Portfolio PSD Template</h1>
+								<p class="swiper-slide__deccr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide__content flex">
+								<p class="swiper-slide__top-title">Unique and Modern Design</p>
+								<h1 class="swiper-slide__title">Portfolio PSD Template</h1>
+								<p class="swiper-slide__deccr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="swiper-slide__content flex">
+								<p class="swiper-slide__top-title">Unique and Modern Design</p>
+								<h1 class="swiper-slide__title">Portfolio PSD Template</h1>
+								<p class="swiper-slide__deccr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+				</div>
+			</section>
+			<section class="our-dewelopment" id="about">
+				<div class="container our-dewelopment__container flex">
+					<a href="#" class="our-dewelopment-link" aria-label="go to Web & App Design">
+						<div class="our-dewelopment-block flex">
+							<div class="our-dewelopment-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.594" height="47.59">
+									<path class="icon-design" d="M534.668,1121.47a1.591,1.591,0,0,0-2.248,0l-13.847,13.84-19.467,8.58-3-3,8.576-19.47,13.844-13.84a1.59,1.59,0,0,0-2.248-2.25l-14.268,14.26-14.477,32.87,32.868-14.47,14.266-14.27A1.592,1.592,0,0,0,534.668,1121.47Zm-20.173,11a1.606,1.606,0,0,0,2.25,0l13.332-13.34a1.591,1.591,0,0,0-2.25-2.25L514.5,1130.22A1.593,1.593,0,0,0,514.5,1132.47Zm-3.48-3.48a1.606,1.606,0,0,0,2.25,0l13.333-13.34a1.591,1.591,0,0,0-2.25-2.25l-13.333,13.33A1.6,1.6,0,0,0,511.015,1128.99Zm-3.481-3.49a1.581,1.581,0,0,0,2.25,0l13.333-13.33a1.591,1.591,0,0,0-2.25-2.25l-13.333,13.33A1.593,1.593,0,0,0,507.534,1125.5Z" transform="translate(-487.531 -1104.88)"/>
+								</svg>
+							</div>
+
+							<p class="our-dewelopment-title">Web & App Design</p>
+							<p class="our-dewelopment-descr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+							<div class="our-dewelopment-line"></div>
+						</div>
+					</a>
+
+					<a href="#" class="our-dewelopment-link" aria-label="go to our-dewelopment">
+						<div class="our-dewelopment-block flex">
+							<div class="our-dewelopment-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.875" height="39.19">
+									<path class="icon-design" d="M811.851,1113.11l-21.437,11.56,21.437,11.56,21.436-11.56Zm0,26.85-17.452-9.41-3.985,2.15,21.437,11.55,21.436-11.55-3.985-2.15Zm0,8.02-17.452-9.41-3.985,2.15,21.437,11.56,21.436-11.56-3.985-2.15Z" transform="translate(-790.406 -1113.09)"/>
+								</svg>
+							</div>
+							<p class="our-dewelopment-title">Development</p>
+							<p class="our-dewelopment-descr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+							<div class="our-dewelopment-line"></div>
+						</div>
+					</a>
+
+					<a href="#" class="our-dewelopment-link" aria-label="go to our-dewelopment">
+						<div class="our-dewelopment-block flex">
+							<div class="our-dewelopment-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.56" height="43.56">
+									<path class="icon-design" d="M1132.93,1129.85a4.327,4.327,0,0,0-2.61-3.86,4.623,4.623,0,0,1-2.88-6.97,4.161,4.161,0,0,0-5.46-5.46,6.019,6.019,0,0,1-4.23.35,5.937,5.937,0,0,1-2.74-3.24,4.173,4.173,0,0,0-7.73,0,4.634,4.634,0,0,1-6.97,2.89,4.161,4.161,0,0,0-5.46,5.46,4.636,4.636,0,0,1-2.88,6.97,4.159,4.159,0,0,0,0,7.72,4.623,4.623,0,0,1,2.88,6.97,4.161,4.161,0,0,0,5.46,5.46,4.634,4.634,0,0,1,6.97,2.89,4.173,4.173,0,0,0,7.73,0,4.628,4.628,0,0,1,6.97-2.89,4.161,4.161,0,0,0,5.46-5.46,4.623,4.623,0,0,1,2.88-6.97A4.327,4.327,0,0,0,1132.93,1129.85Zm-21.79,7.99a7.985,7.985,0,1,1,7.99-7.98A7.979,7.979,0,0,1,1111.14,1137.84Z" transform="translate(-1089.38 -1108.06)"/>
+								</svg>
+							</div>
+							<p class="our-dewelopment-title">Customization</p>
+							<p class="our-dewelopment-descr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+							<div class="our-dewelopment-line"></div>
+						</div>
+					</a>
+
+					<a href="#" class="our-dewelopment-link" aria-label="go to our-dewelopment">
+						<div class="our-dewelopment-block flex">
+							<div class="our-dewelopment-icon">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.87" height="35.63">
+									<path class="icon-design" d="M1397,1129.25a6.787,6.787,0,0,1,5.74-3.61h26.21v-1.66a2.482,2.482,0,0,0-2.46-2.48h-10.82v-1.44a3.707,3.707,0,0,0-3.68-3.73h-6.29a3.722,3.722,0,0,0-3.69,3.73v1.44H1391.2a2.475,2.475,0,0,0-2.46,2.48v22.17Zm7.47-9.19a1.266,1.266,0,0,1,.36-0.88,1.185,1.185,0,0,1,.87-0.36h6.29a1.231,1.231,0,0,1,1.23,1.24v1.44h-8.75v-1.44Zm25.45,29.7a4.319,4.319,0,0,1-3.54,2.22h-35.3a1.417,1.417,0,0,1-1.37-2.22l9.49-19.42a4.333,4.333,0,0,1,3.54-2.22h35.3a1.417,1.417,0,0,1,1.37,2.22Z" transform="translate(-1388.75 -1116.34)"/>
+								</svg>
+							</div>
+							<p class="our-dewelopment-title">Marketing</p>
+							<p class="our-dewelopment-descr">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+							<div class="our-dewelopment-line"></div>
+						</div>
+					</a>
+
+				</div>
+			</section>
+			<section class="txt">
+				<div class="container txt__container flex">
+					<div class="start__section">
+						<h2 class="title__section">Waxom is Realization of your Ideas.</h2>
+						<p class="start__section-descr">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+					</div>
+					<img class="bg-txt" src="img/bg-txt.png" alt="image">
+				</div>
+				<div class="subject">
+					<div class="container subject__container">
+						<div class="subject__content flex">
+							<div class="subject__wrap-descr">
+								<p class="subject__content-title"><span class="brown-descr">Waxom</span> Multipurpose WordPress Theme</p>
+								<p class="subject__content-descr">Don't Forget to Rate the Template. Thanks so much!</p>
+							</div>
+							<button class="button" aria-label="Purchase Now">Purchase Now</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="projects" id="portfolio">
+				<div class="container projects__container">
+					<div class="start__section">
+						<h2 class="title__section">Our Latest Projects.</h2>
+						<p class="start__section-descr">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+					</div>
+					<div class="projects__nav flex">
+						<div class="project__item project__item-active all-projects">All</div>
+						<div class="project__item design">Web Design</div>
+						<div class="project__item mobile">Mobile App</div>
+						<div class="project__item data-illustrator">Illustrator</div>
+						<div class="project__item photograph">Photography</div>
+					</div>
+					<div class="projects__wrap flex">
+
+						<div data-illustrator class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-6.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Usus Legentis Videntur</p>
+								<p class="project__descr">Photography, Holiday</p>
+							</div>
+						</div>
+
+						<div data-design class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-2.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Quam Nutamus Farum</p>
+								<p class="project__descr">Graphic Design, Mock-Up</p>
+							</div>
+						</div>
+
+						<div data-mobile class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-3.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Usus Legentis Videntur</p>
+								<p class="project__descr">Photography, Holiday</p>
+							</div>
+						</div>
+
+						<div data-mobile class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-4.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Claritas Etiam Processus</p>
+								<p class="project__descr">Photography, Nature</p>
+							</div>
+						</div>
+
+						<div data-design class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-5.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Quam Nutamus Farum</p>
+								<p class="project__descr">Graphic Design, Mock-Up</p>
+							</div>
+						</div>
+
+						<div data-mobile class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-6.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Usus Legentis Videntur</p>
+								<p class="project__descr">Photography, Holiday</p>
+							</div>
+						</div>
+
+						<div data-design class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-1.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Claritas Etiam Processus</p>
+								<p class="project__descr">Photography, Nature</p>
+							</div>
+						</div>
+
+						<div data-photograph class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-2.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Quam Nutamus Farum</p>
+								<p class="project__descr">Graphic Design, Mock-Up</p>
+							</div>
+						</div>
+
+						<div data-illustrator class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-5.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Quam Nutamus Farum</p>
+								<p class="project__descr">Graphic Design, Mock-Up</p>
+							</div>
+						</div>
+
+						<div data-photograph class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-3.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Usus Legentis Videntur</p>
+								<p class="project__descr">Photography, Holiday</p>
+							</div>
+						</div>
+
+						<div data-photograph class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-6.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Usus Legentis Videntur</p>
+								<p class="project__descr">Photography, Holiday</p>
+							</div>
+						</div>
+
+						<div data-design class="project flex" aria-label="Go to Photography">
+							<div class="project__photo flex">
+								<img src="img/project-photo-2.jpg" alt="image">
+								<svg class="project__photo-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="10">
+									<path d="M410,2762l15.009,10H394.991Z" transform="translate(-395 -2762)"/>
+								</svg>
+								<div class="project__hover-icon">
+									<a href="#" class="project__icon-link">
+										<svg class="icon-link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.624" height="24.62">
+											<path d="M943.5,2643.49a6.208,6.208,0,0,0-8.743,0l-4.721,4.73a7.1,7.1,0,0,1,4.908.37l2.454-2.45a2.447,2.447,0,0,1,3.46,3.46l-3.085,3.09-2.028,2.02a2.438,2.438,0,0,1-3.46,0l-2.641,2.65a6.064,6.064,0,0,0,2.079,1.36,6.237,6.237,0,0,0,6.153-.9,4.686,4.686,0,0,0,.511-0.46l3.187-3.19,1.926-1.93A6.18,6.18,0,0,0,943.5,2643.49Zm-12.561,16.03-2.352,2.36a2.447,2.447,0,0,1-3.46-3.46l5.113-5.12a2.457,2.457,0,0,1,3.46,0l2.642-2.64a5.97,5.97,0,0,0-2.079-1.37,6.206,6.206,0,0,0-6.426,1.14,3.111,3.111,0,0,0-.239.23l-5.113,5.11a6.185,6.185,0,0,0,8.744,8.75l4.618-4.67C933.5,2660.39,932.949,2660.33,930.938,2659.52Z" transform="translate(-920.688 -2641.72)"/>
+										</svg>
+									</a>
+									<a href="#" class="project__icon-lupa">
+										<svg class="icon-lupa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.157" height="24.47">
+											<path d="M985.3,2645.08a1.3,1.3,0,1,0,0,2.59,4.156,4.156,0,0,1,3.748,2.31,1.327,1.327,0,0,0,1.758.6,1.284,1.284,0,0,0,.607-1.73A6.756,6.756,0,0,0,985.3,2645.08Zm14.152,17.8-4.383-4.32a10.838,10.838,0,0,0,2.068-6.36,11.158,11.158,0,1,0-4.346,8.7l4.335,4.27a1.649,1.649,0,0,0,2.326,0A1.6,1.6,0,0,0,999.456,2662.88Zm-22.047-10.68a8.552,8.552,0,0,1,17.1,0,8.4,8.4,0,0,1-3.029,6.42A8.561,8.561,0,0,1,977.409,2652.2Z" transform="translate(-974.781 -2641.19)"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<div class="project__descr-block">
+								<p class="project__title">Quam Nutamus Farum</p>
+								<p class="project__descr">Graphic Design, Mock-Up</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="project__button flex">
+						<button class="button" aria-label="Load More">Load More</button>
+					</div>
+				</div>
+			</section>
+			<section class="video">
+				<div class="video__wrap">
+					<video class="video__content" poster="img/poster.jpg" preload="none">
+						<source src="video/Demo.mp4" type="video/mp4">
+					</video>
+					<div class="video__overlay flex">
+						<button class="btn-play" aria-label="play video">
+							<img src="img/btn-play.png" alt="img play video">
+						</button>
+						<p class="overlay__title">Waxom Video Presentation</p>
+						<p class="overlay__descr">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+					</div>
+				</div>
+			</section>
+			<section class="mobileLayot">
+				<div class="container mobileLayot__container flex">
+					<div class="mobileLayot__iPhone flex">
+						<img src="img/iPhoneInHand.png" alt="image">
+					</div>
+					<div class="mobileLayot__descr-block">
+						<h2 class="title__section">Excellent for Mobile Devices.</h2>
+						<p class="mobileLayot__descr">
+							Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+						</p>
+						<ul class="mobileLayot__list">
+							<li class="mobileLayotArrow mobileLayot__item">Nam liber tempor cum soluta nobis eleifend option;</li>
+							<li class="mobileLayotArrow mobileLayot__item">Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+							<li class="mobileLayotArrow mobileLayot__item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+							<li class="mobileLayotArrow mobileLayot__item">Investigationes demonstraverunt lectores;</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="counters">
+				<div class="container counters__container flex">
+
+					<div class="counters__counter flex">
+						<div class="counter__icon clients"></div>
+						<p class="counter__number">3587</p>
+						<p class="counter__descr">Satisfied Clients</p>
+						<div class="counter__border"></div>
+					</div>
+
+					<div class="counters__counter flex">
+						<div class="counter__icon coffee"></div>
+						<p class="counter__number">205</p>
+						<p class="counter__descr">Cups of coffee</p>
+						<div class="counter__border"></div>
+					</div>
+
+					<div class="counters__counter flex">
+						<div class="counter__icon blog"></div>
+						<p class="counter__number">2500</p>
+						<p class="counter__descr">Blog posts</p>
+						<div class="counter__border"></div>
+					</div>
+
+					<div class="counters__counter flex">
+						<div class="counter__icon likes"></div>
+						<p class="counter__number">873</p>
+						<p class="counter__descr">Likes</p>
+						<div class="counter__border"></div>
+					</div>
+
+					<div class="counters__counter flex">
+						<div class="counter__icon launched"></div>
+						<p class="counter__number">900</p>
+						<p class="counter__descr">We launched</p>
+						<div class="counter__border"></div>
+					</div>
+
+				</div>
+			</section>
+			<section class="posts" id="blog">
+				<div class="container container__posts">
+					<div class="start__section">
+						<h2 class="title__section">Recent Posts.</h2>
+						<p class="start__section-descr">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+					</div>
+					<div class="swiper-posts-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="post__swiper-slide-content flex">
+									<div class="post__hover-img flex">
+										<img class="" src="img/post-photo1.jpg" alt="image">
+										<div class="post__data flex">
+											<p class="post__day flex">30</p>
+											<p class="post__month flex">Sep.</p>
+										</div>
+									</div>
+									<div class="post__descr-wrap">
+										<h3 class="posts__title">Lorem ipsum dolor sit amet</h3>
+										<p class="posts__descr">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+										<a class="posts__link" href="#" aria-label="Read More">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post__swiper-slide-content flex">
+									<div class="post__hover-img flex">
+										<img class="" src="img/post-photo2.jpg" alt="image">
+										<div class="post__data flex">
+											<p class="post__day flex">30</p>
+											<p class="post__month flex">Sep.</p>
+										</div>
+									</div>
+									<div class="post__descr-wrap">
+										<h3 class="posts__title">Lorem ipsum dolor sit amet</h3>
+										<p class="posts__descr">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+										<a class="posts__link" href="#" aria-label="Read More">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post__swiper-slide-content flex">
+									<div class="post__hover-img flex">
+										<img class="" src="img/post-photo3.jpg" alt="image">
+										<div class="post__data flex">
+											<p class="post__day flex">30</p>
+											<p class="post__month flex">Sep.</p>
+										</div>
+									</div>
+									<div class="post__descr-wrap">
+										<h3 class="posts__title">Lorem ipsum dolor sit amet</h3>
+										<p class="posts__descr">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+										<a class="posts__link" href="#" aria-label="Read More">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="post__swiper-slide-content flex">
+									<div class="post__hover-img flex">
+										<img class="" src="img/post-photo2.jpg" alt="image">
+										<div class="post__data flex">
+											<p class="post__day flex">30</p>
+											<p class="post__month flex">Sep.</p>
+										</div>
+									</div>
+									<div class="post__descr-wrap">
+										<h3 class="posts__title">Lorem ipsum dolor sit amet</h3>
+										<p class="posts__descr">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+										<a class="posts__link" href="#" aria-label="Read More">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper2__navigation flex">
+							<div class="swiper2-button-next"></div>
+							<div class="swiper2-button-prev"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partners">
+				<div class="container container__partners">
+					<div class="partners__block flex">
+						<img src="img/partner-1.png" alt="Icon partner">
+						<img src="img/partner-2.png" alt="Icon partner">
+						<img src="img/partner-3.png" alt="Icon partner">
+						<img src="img/partner-4.png" alt="Icon partner">
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="top__footer">
+				<div class="container top__footer-content flex">
+					<div class="footer__about">
+						<a href="index.html" class="logo flex" aria-label="go to start page">
+							<img src="img/logo.svg" alt="Logo">
+							<p class="logo__name">Waxom</p>
+						</a>
+						<p class="footer__about-descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+						<a href="#" class="footer__about-link" aria-label="Read More">Read More</a>
+					</div>
+					<div class="footer__posts">
+						<p class="footer__posts-title">Recent Posts</p>
+						<div class="footer__posts-list">
+							<div class="footer__posts-item" >
+								<p class="footer__posts-time">September 08, 2015</p>
+								<p class="footer__posts-descr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+							</div>
+							<div class="footer__posts-item">
+								<p class="footer__posts-time">September 08, 2015</p>
+								<p class="footer__posts-descr">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+							</div>
+							<div class="footer__posts-item">
+								<p class="footer__posts-time">September 08, 2015</p>
+								<p class="footer__posts-descr">Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+							</div>
+						</div>
+					</div>
+					<div class="footer__posts">
+						<p class="footer__posts-title">Our Twitter</p>
+						<div class="footer__posts-list">
+							<div class="footer__posts-item">
+								<p class="footer__posts-descr"><a class="mail__waxom" href="waxom@example.com">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+								<p class="footer__posts-time">3 mins ago</p>
+							</div>
+							<div class="footer__posts-item">
+								<p class="footer__posts-descr">Mirum est <span class="hashtag">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+								<p class="footer__posts-time">5 hours ago</p>
+							</div>
+							<div class="footer__posts-item">
+								<p class="footer__posts-descr">Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+								<p class="footer__posts-time">20 days ago</p>
+							</div>
+						</div>
+					</div>
+					<div class="footer__posts">
+						<p class="footer__posts-title">Dribble Widget</p>
+						<div class="footer__widget-container">
+							<img src="img/widget-1.jpg" alt="image widget">
+							<img src="img/widget-2.jpg" alt="image widget">
+							<img src="img/widget-3.jpg" alt="image widget">
+							<img src="img/widget-4.jpg" alt="image widget">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom__footer">
+				<div class="container bottom__footer-container flex">
+					<div class="bottom__footer-copyright flex">
+						<p class="footer__copyright">Copyright © 2015 <a class="bottom__footer-link" href="index.html">Waxom</a></p>
+						<ul class="bottom__footer-list flex">
+							<li class="footer__list-item"><a class="footer__list-link" href="#">Privacy Policy</a></li>
+							<li class="footer__list-item"><a class="footer__list-link faq" href="#">Faq</a></li>
+							<li class="footer__list-item"><a class="footer__list-link" href="#">Support</a></li>
+						</ul>
+					</div>
+					<div class="bottom__footer-designer flex">
+						<ul class="bottom__footer-list flex">
+							<li class="footer__list-item border-none">Designed by <a class="footer__list-link bottom__footer-link" href="#">ThemeFire</a></li>
+							<li class="footer__list-item">Only on <a class="footer__list-link bottom__footer-link" href="#">Envato Market</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="libs/swiper/swiper.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.partners {
+	background-image: url(../../img/partners-bg.jpg);
+	width: 100vw;
+	background-color: #111111;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.partners__block {
+	min-height: 37vmax;
+	padding: 3vmax 0;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.partners__block img {
+	padding: 3vmax;
+}

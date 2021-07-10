@@ -1,0 +1,66 @@
+.mobileLayot__container {
+	padding-top: 6vmax;
+	justify-content: center;
+	align-items: center;
+	color: var(--descr-color);
+}
+
+.mobileLayot__descr-block {
+	max-width: 68%;
+}
+
+.mobileLayot__descr {
+	line-height: 2.2vmax;
+}
+
+.mobileLayot__list {
+	padding-top: 5vmax;
+	padding-left: 3vmax;
+	text-align: left;
+}
+
+.mobileLayot__item {
+	line-height: 2.4vmax;
+	padding-left: 4.2vmax;
+}
+
+.mobileLayotArrow {
+	background: url(../../img/mobileLayutArrow.jpg);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+
+
+
+@media (max-width: 800px) {
+
+	.mobileLayot__container {
+		flex-direction: column;
+	}
+
+	.mobileLayot__iPhone {
+		max-width: 70%;
+		padding-bottom: 20px;
+		margin: 0 auto;
+	}
+
+	.mobileLayot__descr-block {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.mobileLayot__descr {
+    line-height: 3vmax;
+	}
+
+	.mobileLayot__item {
+    line-height: 4vmax;
+		margin-bottom: 10px;
+	}
+
+	.mobileLayot__item {
+		padding-left: 5vmax;
+	}
+
+}

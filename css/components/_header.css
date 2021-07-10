@@ -1,0 +1,155 @@
+.header {
+	position: absolute;
+	top: 1.5vmax;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.full__navigation {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	font-family: 'Raleway-regular', sans-serif;
+	align-items: center;
+	color: var(--white-color);
+}
+
+.logo__name {
+	font-size: 2.5vmax;
+}
+
+.menu__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.menu__link {
+	font-family: 'Montserrat-light', sans-serif;
+	font-size: 14px;
+	color: var(--white-color);
+	transition: 0.3s ease-in;
+}
+
+.menu__link:hover {
+	color: var(--brown-color);
+	transition: 0.3s ease-in;
+}
+
+.device__navigation {
+	display: none;
+}
+
+.button__burger, .button__close-nav-mobile {
+	width: 30px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.burger__line {
+	width: 100%;
+	height: 2px;
+	background-color: var(--white-color);
+	display: block;
+	transition: 0.3s ease-in;
+}
+
+.burger__line:nth-child(2) {
+	margin: 6px auto;
+}
+
+
+
+.burger__active .burger__line:nth-child(1) {
+	transform: translateY(7px) rotate(45deg);
+}
+
+.burger__active .burger__line:nth-child(2) {
+	opacity: 0;
+}
+
+.burger__active .burger__line:nth-child(3) {
+	transform: translateY(-9px) rotate(-45deg);
+}
+
+.icon__search {
+	margin-left: 2.1vmax;
+}
+
+.icon-cart, .icon-search {
+	fill: var(--white-color);
+	transition: 0.3s ease-in;
+}
+
+.icon-cart:hover, .icon-search:hover {
+	fill: var(--brown-color);
+	transition: 0.3s ease-in;
+}
+
+.button__close-nav-mobile {
+	margin-top: 25px;
+	margin-right: 17px;
+}
+
+.close__btn-line {
+	width: 100%;
+	height: 2px;
+	background-color: var(--white-color);
+	display: block;
+	transform: translateY(0px) rotate(44deg);
+}
+
+.close__btn-line:nth-child(2) {
+	margin: 6px auto;
+	transform: translateY(-8px) rotate(-42deg);
+}
+
+
+
+@media (max-width: 980px) {
+
+	.full__navigation {
+		display: none;
+	}
+
+	.device__navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.header__nav-mobile {
+		position: fixed;
+		top: 0;
+		left: 0;
+		max-width: 400px;
+		width: 80%;
+		height: 100vh;
+		z-index: 100;
+		box-shadow: 5px 0 15px -5px rgba(0, 0, 0, 0.5);
+		background-color: rgba(0, 0, 0, 0.9);
+		transform: translateX(-150vh);
+		transition: all 0.3s;
+		justify-content: space-between;
+	}
+
+	.header__nav-mobile.open-menu {
+		transform: translateX(0);
+		transition: all 0.3s;
+	}
+
+	.menu__list {
+		padding: 10%;
+		flex-direction: column;
+	}
+
+	.menu__item {
+		padding: 5% 0;
+	}
+
+	.menu__link {
+		font-size: 20px;
+	}
+
+}
