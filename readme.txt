@@ -1,21 +1,18 @@
+В данном проекте я применил свои навыки в вёрстке главной страницы, сделал её адаптивной, а так же выполнил сортировку проектов по клику на странице.
+Слайдер, использованный при вёрстке - Swiper.js;
+Стек язков, использованных при вёрстке: HTML5, CSS3, JavaScript;
+Видео, используемое в вёрстке случайное;
+
+
 Waxom - Free Homepage PSD Template.
-
-Fonts Used:
-Raleway https://www.google.com/fonts/specimen/Raleway
-Montserrat https://www.google.com/fonts/specimen/Montserrat
-Roboto https://www.google.com/fonts/specimen/Roboto
-
-Icons Used: http://www.flaticon.com/
-Free Photo Used: https://pixabay.com/
 
 ------------------------
 
 Waxom - Clean & Universal PSD Template (230 psd's files) Download: http://themeforest.net/item/waxom-clean-universal-psd-template/8407963
-Waxom - Clean & Universal WordPress Theme http://themeforest.net/item/waxom-clean-universal-wordpress-theme/13639831
 
 ------------------------
 
-Thank you for the attention and have a nice day ;)
+Спасибо за внимание и хорошего дня;)
 
-Regards, 
-Dmitry (themefire).
+С уважением,
+Кирилл.
